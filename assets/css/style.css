@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+
+
+:root{
+    --theme-color: #7168A1;
+
+
+}
+body{
+    font-size: 16px;
+    color: #3B3857;
+    line-height: 1.3;
+    font-family: 'Noto Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    line-height: 1.3;
+    color: #3B3857;
+}
+input{
+    height: 50px;
+    width: 100%;
+    border: 1px solid #ACA7C8;
+    background-color: #E7E6EF;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3B3857;
+    outline: none;
+    padding: 0px 15px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.grey-bg{
+    background: rgba(59, 56, 87, 0.09);
+}
+
+
+.btn{
+    padding: 15px 65px;
+    background-color: #3B3857;
+    line-height: 1;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    display: inline-block;
+    color: #fff;
+    border-radius: 0px;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #353349;
+}
+.link{
+    display: inline-block;
+    color: #3B3857;
+    font-size: 16px;
+}
+.link:hover{
+    text-decoration: none;
+    color: #3B3857;
+}
+
+
+
+/* loging */
+.login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form h2 span{
+    color: var(--theme-color);
+}
+
+/* login-end */
+
+
+/* header-area */
+.header{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.header-user img{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+/* header-area-end */
+
+
+
+/* main-wrapper */
+.main-wrapper {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: -10px bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-card{
+    background-color: #7F7D95   ;
+    border-radius: 12px;
+    padding: 20px 24px;
+}
+.d-card h4{
+    color: #fff;
+}
+
+.b-card h2{
+    color: #fff;
+}
+.b-card p{
+    color: #fff;
+    font-size: 48px;
+    margin: 0px;
+    line-height: 1;
+    font-weight: bold;
+
+}
+
+
+
+.b-card{
+    background-color: #7F7D95   ;
+    border-radius: 12px;
+    padding: 20px 24px 24px;
+    margin-bottom: 40px;
+}
+
+
+/* main-wrapper-end */
+
+
+
+
+/* footer */
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+/* footer-end */
+
+
+
+
+
